@@ -9,7 +9,7 @@ public class PassedOrFailed {
         if(grade >= 3.00) {
             System.out.println("Passed!");
         } else {
-            //grade < 3.00
+           
             System.out.println("Failed!");
         }
     }
