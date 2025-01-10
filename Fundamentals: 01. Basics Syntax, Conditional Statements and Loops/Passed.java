@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P02Passed {
+public class Passed {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
