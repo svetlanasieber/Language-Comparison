@@ -1,5 +1,3 @@
-package Exercise06_BasicSyntax;
-
 import java.util.Scanner;
 
 public class Ages {
