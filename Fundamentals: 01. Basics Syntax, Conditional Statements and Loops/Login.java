@@ -8,7 +8,6 @@ public class Login {
         String password = ""; 
 
         for (int position = username.length() - 1; position >= 0; position--) {
-           
             char symbol = username.charAt(position); 
             password += symbol; //password = password + symbol;
         }
