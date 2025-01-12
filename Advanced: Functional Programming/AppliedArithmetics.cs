@@ -1,6 +1,6 @@
 using System.Threading.Channels;
 
-namespace _05.AppliedArithmetics
+namespace AppliedArithmetics
 {
     internal class Program
     {
