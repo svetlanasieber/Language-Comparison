@@ -18,7 +18,7 @@ public class VendingMachine {
             command = scanner.nextLine();
         }
 
-     
+      
         final double NUTS_PRICE = 2.0;
         final double WATER_PRICE = 0.7;
         final double CRISPS_PRICE = 1.5;
