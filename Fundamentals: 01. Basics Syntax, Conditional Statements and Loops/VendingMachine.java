@@ -3,17 +3,18 @@ import java.util.Scanner;
 public class VendingMachine {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-      
+
+
         double sumCoins = 0;
-     
+
+       
         String input = scanner.nextLine();
         while (!input.equals("Start")) {
 
             double coin = Double.parseDouble(input);
 
-       
             if (coin == 0.1 || coin == 0.2 || coin == 0.5 || coin == 1 || coin == 2) {
-          
+               
                 sumCoins += coin;
             } else {
                 System.out.printf("Cannot accept %.2f\n", coin);
@@ -77,5 +78,4 @@ public class VendingMachine {
     }
 }
 
-    }
-            }
+  
